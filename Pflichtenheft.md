@@ -22,14 +22,13 @@ es handelt sich um eine mobile Applikation
 - Smartphone, Tablet
 
 ## Produktfunktionen
-**/F0010/** *neuen Kontakt erstellen:* Der Benutzer kann hier einen neuen Kontakt anlegen. Hierzu kann er folgende Angaben tätigen:
-- Art des Kontakts (Firma oder Mitarbeiter)
-- Name, Vorname
-- Telefonnummer
-- Adresse
-- Kontakt einer Firma zuweisen (nur bei Mitarbeiter-Kontakt möglich)
-&nbsp;
-**/F0020/** *Kontakt bearbeiten:* Der Benutzer kann hier einen bereits vorhandenen Kontakt bearbeiten.
-**/F0030/** *Kontakt löschen:* Der Benutzer kann hier einen bestehenden Kontakt löschen.
-**/F0040/** *Kontakt suchen:* Der Benutzer kann hier einen bestimmten Kontakt durch Eingabe suchen.
-**/F0050/** *Kontakte filtern:* Der Benutzer kann hier sein Kontakt-Verzeichnis filtern und sich nur die Firmen-Kontakte oder nur die Mitarbeiter-Kontakte anzeigen lassen
+- **/F0010/** *neuen Kontakt erstellen:* Der Benutzer kann hier einen neuen Kontakt anlegen. Hierzu kann er folgende Angaben tätigen:
+  - Art des Kontakts (Firma oder Mitarbeiter)
+  - Name, Vorname
+  - Telefonnummer
+  - Adresse
+  - Kontakt einer Firma zuweisen (nur bei Mitarbeiter-Kontakt möglich)
+- **/F0020/** *Kontakt bearbeiten:* Der Benutzer kann hier einen bereits vorhandenen Kontakt bearbeiten.
+- **/F0030/** *Kontakt löschen:* Der Benutzer kann hier einen bestehenden Kontakt löschen.
+- **/F0040/** *Kontakt suchen:* Der Benutzer kann hier einen bestimmten Kontakt durch Eingabe suchen.
+- **/F0050/** *Kontakte filtern:* Der Benutzer kann hier sein Kontakt-Verzeichnis filtern und sich nur die Firmen-Kontakte oder nur die Mitarbeiter-Kontakte anzeigen lassen
