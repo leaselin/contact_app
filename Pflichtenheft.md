@@ -28,7 +28,11 @@ es handelt sich um eine mobile Applikation
   - Telefonnummer
   - Adresse
   - Kontakt einer Firma zuweisen (nur bei Mitarbeiter-Kontakt möglich)
+  - Kommentar
 - **/F0020/** *Kontakt bearbeiten:* Der Benutzer kann hier einen bereits vorhandenen Kontakt bearbeiten.
 - **/F0030/** *Kontakt löschen:* Der Benutzer kann hier einen bestehenden Kontakt löschen.
 - **/F0040/** *Kontakt suchen:* Der Benutzer kann hier einen bestimmten Kontakt durch Eingabe suchen.
 - **/F0050/** *Kontakte filtern:* Der Benutzer kann hier sein Kontakt-Verzeichnis filtern und sich nur die Firmen-Kontakte oder nur die Mitarbeiter-Kontakte anzeigen lassen
+
+## Produktdaten
+- **/D0010/** *Kontaktdaten:* alle Informationen zu einem Kontakt
