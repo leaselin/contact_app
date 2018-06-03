@@ -36,3 +36,14 @@ es handelt sich um eine mobile Applikation
 
 ## Produktdaten
 - **/D0010/** *Kontaktdaten:* alle Informationen zu einem Kontakt
+
+## Benutzungsoberfläche
+### Dialogstruktur
+- Startseite
+  - Auflistung der Kontakte -> Kontaktansicht
+  - neuen Kontakt erstellen **/F0010/**
+  - Kontakt suchen **/F0040/**
+  - Kontakte filtern **/F0050/**
+- Kontaktansicht
+  - Kontakt bearbeiten **/F0020/**
+  - Kontakt löschen **/F0030/**
