@@ -47,3 +47,7 @@ es handelt sich um eine mobile Applikation
 - Kontaktansicht
   - Kontakt bearbeiten **/F0020/**
   - Kontakt löschen **/F0030/**
+  
+## Aufwandsschätzung
+- 3000-5000 Euro
+- 300 Stunden
