@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+           <HBox prefHeight="100.0" prefWidth="200.0">
+               <CheckBox fx:id="haarClassifier" onAction="#haarSelected" prefHeight="21.0" prefWidth="145.0" text="Haar Classifier" />
+               <CheckBox fx:id="lbpClassifier" contentDisplay="CENTER" onAction="#lbpSelected" text="LBP Classifier" />
+            <TextArea id="numberOfCards" fx:id="numberOfCards" editable="false" prefHeight="20.0" prefWidth="50.0" />
+           </HBox>
+           <Separator prefWidth="200.0" />
+       </VBox>
+   </top>
+   <bottom>
+       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <Label text="blur">
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin></Label>
+         <Slider fx:id="blur" max="5.0" min="1.0">
+            <HBox.margin>
+               <Insets right="50.0" />
+            </HBox.margin>
+         </Slider>
+           <Button fx:id="cameraButton" alignment="CENTER" contentDisplay="CENTER" disable="true" onAction="#startCamera" text="Start camera" />
+         <Label text="threshold">
+            <HBox.margin>
+               <Insets left="50.0" right="5.0" />
+            </HBox.margin>
+         </Label>
+         <Slider fx:id="threshold" max="255.0">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </Slider>
+       </HBox>
+   </bottom>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="originalFrame" fitHeight="280.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+             <ImageView fx:id="graysFrame" fitHeight="280.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="threshFrame" fitHeight="280.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
